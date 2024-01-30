@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/ConfigServer/pom.xml" />
         <option value="$PROJECT_DIR$/ServiceA/pom.xml" />
         <option value="$PROJECT_DIR$/ServiceB/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigRemoteServer/pom.xml" />
       </list>
     </option>
   </component>
