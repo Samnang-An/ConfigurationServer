@@ -1,0 +1,3 @@
+greeting: "Hello from Service B Modified"
+server:
+  port: 8081
