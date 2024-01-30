@@ -1,0 +1,16 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: config-remote-server
+#  profiles:
+#    active: native
+  cloud:
+    config:
+      server:
+        git:
+          uri: ${GITHUB_REPO:https://github.com/Samnang-An/ConfigurationServer.git}
+          search-paths: ${GITHUB_SUBFOLDER:Configurations}
+#        native:
+#          search-locations: classpath:/config
+
