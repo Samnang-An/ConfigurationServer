@@ -41,6 +41,7 @@ jobs:
     - name: Build and push
       uses: docker/build-push-action@v5
       with:
+        context: "{{defaultContext}}:ConfigRemoteServer"
         push: true
         tags: samnangan9792/personal:latest
         
