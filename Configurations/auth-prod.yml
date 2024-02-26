@@ -1,0 +1,18 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://mongodb.internal.delightfulfield-91802938.eastus.azurecontainerapps.io/oauth-database
+#spring:
+#  data:
+#    mongodb:
+#      host: https://mongodb.internal.delightfulfield-91802938.eastus.azurecontainerapps.io
+#      port: 27017
+#      database: oauth-database
+#      username:
+#      password:
+
+security:
+  oauth2:
+    client:
+      clientId: ankaboot
+      clientSecret: ankaboot
