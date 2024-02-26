@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://mongodb.internal.delightfulfield-91802938.eastus.azurecontainerapps.io/oauth-database
+      uri: mongodb://mongodb.internal.delightfulfield-91802938.eastus.azurecontainerapps.io:27017/oauth-database
 #spring:
 #  data:
 #    mongodb:
